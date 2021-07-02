@@ -10,6 +10,7 @@ export const HeaderContainer = styled.div`
     height: 90px;
     position: fixed;
     width: 100vw;
+    z-index: 999;
 
     @media screen and (max-width: 480px) {
         grid-template-columns: 30% 50% 20%;

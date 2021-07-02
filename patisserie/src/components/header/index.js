@@ -14,9 +14,9 @@ const Header = () => {
             <HeaderLogo src={logo} alt="Logo"/>
             <HeaderTitle>Patiss'Auré</HeaderTitle>
             <HeaderLinkWrap>
-                <HeaderLink to="#accueil">Accueil</HeaderLink>
+                <HeaderLink to="#home">Accueil</HeaderLink>
                 <HeaderLink to="#suggestions">Suggestions</HeaderLink>
-                <HeaderLink>Commande</HeaderLink>
+                <HeaderLink to="#order">Commande</HeaderLink>
             </HeaderLinkWrap>
 
         </HeaderContainer>
