@@ -4,7 +4,7 @@ import {HashLink as Link} from "react-router-hash-link";
 export const HeaderContainer = styled.div`
     background: #D9B382;
     display: grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 20% 50% 28%;
     text-align: center;
     align-items: center;
     height: 90px;

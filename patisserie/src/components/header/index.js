@@ -15,7 +15,7 @@ const Header = () => {
             <HeaderTitle>Patiss'Auré</HeaderTitle>
             <HeaderLinkWrap>
                 <HeaderLink to="#accueil">Accueil</HeaderLink>
-                <HeaderLink>Suggestions</HeaderLink>
+                <HeaderLink to="#suggestions">Suggestions</HeaderLink>
                 <HeaderLink>Commande</HeaderLink>
             </HeaderLinkWrap>
 

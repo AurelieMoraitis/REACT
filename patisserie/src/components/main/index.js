@@ -4,7 +4,7 @@ import Carousel from './slider';
 
 const Main = () => {
     return (
-        <MainContainer>
+        <MainContainer id={"accueil"}>
             <MainMessage>Tous nos produits sont à venir chercher sur place</MainMessage>
             <Carousel />
         </MainContainer>
