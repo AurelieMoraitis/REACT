@@ -10,6 +10,12 @@ export const SliderWrap = styled.div`
     position: relative;
     background: #ff6f69;
     margin: 10px auto;
+
+    @media screen and (max-width: 480px) {
+        width: 200px;
+        height: 200px;
+        margin: 10px 16%;
+    }
 `;
 
 export const SliderImage = styled.div`
@@ -19,6 +25,11 @@ export const SliderImage = styled.div`
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 480px) {
+        width: 200px;
+        height: 200px;
+    }
 `;
 
 export const SliderImgDesc = styled.p`
@@ -54,6 +65,13 @@ const buttonSryle = css`
     &:disabled {
         opacity: 0;
     }
+
+    @media screen and (max-width: 480px) {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
+
 `;
 
 export const BackButton = styled(ButtonBack)`

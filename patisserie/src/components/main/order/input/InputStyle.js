@@ -5,6 +5,10 @@ import styled from "styled-components";
 export const InputContainer = styled.div`
     position: relative;
     margin: 10px;
+
+    @media screen and (max-width: 480px) {
+        width: max-content;
+    }
 `;
 
 export const InputLabel = styled.label`
@@ -40,6 +44,11 @@ export const InputField = styled.input`
         color: rpyalblue;
         transition: 300ms;
     }
+
+    @media screen and (max-width: 480px) {
+        width: 150px;
+        padding: 10px;
+    }
 `;
 
 export const SelectField = styled.select`
@@ -51,6 +60,11 @@ export const SelectField = styled.select`
     border-radius: 5px;
     height: 1.5rem;
 
+    @media screen and (max-width: 480px) {
+        width: 150px;
+        padding: 10px;
+    }
+
 `;
 
 export const TextAreaLabel = styled.label`
@@ -59,15 +73,27 @@ export const TextAreaLabel = styled.label`
     margin-left: 90px;
     position: absolute;
     top: 10px;
+
+    @media screen and (max-width: 480px) {
+        margin-right: 5px;
+        margin-left: 0;
+        position: static;
+    }
 `;
 
 export const TextAreaField = styled.textarea`
     outline: none;
-    background: #fff
+    background: #fff;
     padding: 16px 22px;
     border: 1px solid #dadce0;
     font-size: 18px;
     border-radius: 5px;
     max-width: 50%;
     margin-left: 189px;
+
+    @media screen and (max-width: 480px) {
+        width: 130px;
+        margin-left: 0;
+        padding: 10px;
+    }
 `;
