@@ -3,6 +3,7 @@ import {GlobalStyle} from "./styles/GlobalStyle";
 import Header from "./components/header";
 import Main from "./components/main";
 import Side from "./components/side";
+import Footer from "./components/footer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Header toggleMenu={toggleMenu}/>
       <Side isOpen={isOpen} toggleMenu={toggleMenu}/>
       <Main/>
+      <Footer/>
     </div>
   );
 }
