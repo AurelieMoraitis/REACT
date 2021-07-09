@@ -4,7 +4,6 @@ import {
     InputLabel,
     InputField,
     SelectField,
-    TextAreaLabel,
     TextAreaField,
 } from "./InputStyle";
 
@@ -29,7 +28,7 @@ const Select = ({id, label, ...rest}) => {
 const TextArea = ({id, label, ...rest}) => {
     return (
         <InputContainer>
-            <TextAreaLabel htmlFor={id}>{label}</TextAreaLabel>
+            <InputLabel htmlFor={id}>{label}</InputLabel>
             <TextAreaField id={id} {...rest}/>
         </InputContainer>
     )

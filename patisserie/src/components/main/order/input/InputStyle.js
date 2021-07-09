@@ -61,24 +61,10 @@ export const SelectField = styled.select`
     height: 1.5rem;
 
     @media screen and (max-width: 480px) {
-        width: 150px;
+        width: 140px;
         padding: 10px;
     }
 
-`;
-
-export const TextAreaLabel = styled.label`
-    transition: 300ms;
-    transform: translate(-50%, -50%);
-    margin-left: 90px;
-    position: absolute;
-    top: 10px;
-
-    @media screen and (max-width: 480px) {
-        margin-right: 5px;
-        margin-left: 0;
-        position: static;
-    }
 `;
 
 export const TextAreaField = styled.textarea`
@@ -89,10 +75,9 @@ export const TextAreaField = styled.textarea`
     font-size: 18px;
     border-radius: 5px;
     max-width: 50%;
-    margin-left: 189px;
 
     @media screen and (max-width: 480px) {
-        width: 130px;
+        width: 200px;
         margin-left: 0;
         padding: 10px;
     }
