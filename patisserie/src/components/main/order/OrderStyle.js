@@ -7,14 +7,25 @@ export const OrderContainer = styled.div`
     width: 70%;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 80% 50%;
+    grid-template-rows: 7% 45% 7% 35%;
     margin-bottom: 15px;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: 50% 40% 10%;
+        grid-template-rows: 5% 45% 5% 35% 10%;
         padding-top: 0;
         margin-left: 0;
         width: 100%;
+    }
+`;
+
+export const Legend = styled.legend`
+    text-decoration: underline;
+    margin-left: 10px;
+    height: max-content;
+    text-align: left;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 22px;
     }
 `;
 
@@ -25,12 +36,12 @@ export const OrderForm = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 15px;
+    text-align: left;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: 30% 25% 0% 40%;
+        grid-template-rows: 25% 25% 0% 40%;
         grid-template-columns: 1fr;
-        text-align: left;
-        margin: 10px;
+        margin: 0 10px 10px;
     }
 `;
 
@@ -40,11 +51,12 @@ export const CollectForm = styled.div`
     background: #faeab4;
     display: grid;
     grid-template-columns: 50% 50%;
+    text-align: left;
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(4, 25%);
         grid-template-columns: 1fr;
-        margin: 10px;
+        margin: 0 10px 10px;
     }
 `;
 
