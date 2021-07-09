@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div`
     background: linear-gradient(to bottom, #fceee3, #fcd98c);
-    padding: 100px 0 200px 0;
+    padding: 100px 0 70px 0;
     width: 100%;
     display: grid;
     grid-template-rows: 8% 420px 1fr;

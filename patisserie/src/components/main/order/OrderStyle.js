@@ -73,4 +73,8 @@ export const OrderButton = styled.button`
     border-radius:  5px;
     padding: 10px;
     margin-top: 20px;
+
+    @media screen and (max-width: 480px) {
+        margin-top: 0;
+    }
 `;

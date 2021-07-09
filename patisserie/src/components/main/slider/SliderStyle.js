@@ -8,7 +8,6 @@ export const SliderWrap = styled.div`
     height: 400px;
     overflow: hidden;
     position: relative;
-    background: #ff6f69;
     margin: 10px auto;
 
     @media screen and (max-width: 480px) {
