@@ -5,10 +5,13 @@ import {
     HeaderLogo,
     HeaderTitle,
     HeaderLinkWrap,
-    HeaderLink
+    HeaderLink,
+    HeaderMenuContainer,
+    HeaderMenu,
 } from "./HeaderStyle";
 
-const Header = () => {
+const Header = ({toggleMenu}) => {
+
     return (
         <HeaderContainer>
             <HeaderLogo src={logo} alt="Logo"/>
@@ -17,6 +20,9 @@ const Header = () => {
                 <HeaderLink to="#home">Accueil</HeaderLink>
                 <HeaderLink to="#suggestions">Suggestions</HeaderLink>
                 <HeaderLink to="#order">Commande</HeaderLink>
+                <HeaderMenuContainer onClick={toggleMenu}>
+                    <HeaderMenu />
+                </HeaderMenuContainer>
             </HeaderLinkWrap>
 
         </HeaderContainer>

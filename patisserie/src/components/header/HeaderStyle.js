@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {HashLink as Link} from "react-router-hash-link";
+import {FiMenu} from "react-icons/fi";
 
 export const HeaderContainer = styled.div`
     background: #D9B382;
@@ -38,6 +39,10 @@ export const HeaderLinkWrap = styled.div`
     margin-right: 10px;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 480px) {
+        justify-content: center;
+    }
 `;
 
 export const HeaderLink = styled(Link)`
@@ -53,4 +58,18 @@ export const HeaderLink = styled(Link)`
         display: none;
     }
 
+`;
+
+export const HeaderMenuContainer = styled.div`
+    display: block;
+    cursor: pointer;
+`;
+
+export const HeaderMenu = styled(FiMenu)`
+display: none;
+
+@media screen and (max-width: 480px) {
+        display: block;
+        background: transparent;
+    }
 `;
