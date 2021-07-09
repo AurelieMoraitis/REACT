@@ -10,6 +10,7 @@ export const MainContainer = styled.div`
 
     @media screen and (max-width: 480px) {
         grid-template-rows: 5% 230px 1fr;
+        padding-bottom: 0;
     }
 `;
 export const MainMessage = styled.p`

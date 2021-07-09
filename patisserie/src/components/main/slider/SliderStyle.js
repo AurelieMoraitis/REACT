@@ -37,6 +37,10 @@ export const SliderImgDesc = styled.p`
     background: white;
     position: absolute;
     bottom: 0;
+
+    @media screen and (max-width: 480px) {
+        font-size: 10px;
+    }
 `;
 
 export const Nav = styled.nav`
