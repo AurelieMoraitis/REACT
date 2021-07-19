@@ -4,6 +4,7 @@ import {FiMenu} from "react-icons/fi";
 
 export const HeaderContainer = styled.div`
     background: #D9B382;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
     display: grid;
     text-align: center;
     align-items: center;

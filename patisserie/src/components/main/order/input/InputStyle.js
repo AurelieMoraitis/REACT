@@ -25,6 +25,7 @@ export const InputField = styled.input`
     font-size: 18px;
     border-radius: 5px;
     height: 1.5rem;
+    width: 145px;
 
     &:focus {
         border: 2px solid royalblue;
@@ -46,7 +47,6 @@ export const InputField = styled.input`
     }
 
     @media screen and (max-width: 480px) {
-        width: 150px;
         padding: 10px;
     }
 `;
@@ -59,9 +59,9 @@ export const SelectField = styled.select`
     font-size: 18px;
     border-radius: 5px;
     height: 1.5rem;
+    width: 145px;
 
     @media screen and (max-width: 480px) {
-        width: 140px;
         padding: 10px;
     }
 
@@ -75,9 +75,9 @@ export const TextAreaField = styled.textarea`
     font-size: 18px;
     border-radius: 5px;
     max-width: 50%;
+    width: 200px;
 
     @media screen and (max-width: 480px) {
-        width: 200px;
         margin-left: 0;
         padding: 10px;
     }
