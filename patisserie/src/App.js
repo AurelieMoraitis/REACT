@@ -15,7 +15,7 @@ function App() {
     }
   return (
     <div className="App">
-      <GlobalStyle/>
+      <GlobalStyle />
       <Header toggleMenu={toggleMenu}/>
       <Side isOpen={isOpen} toggleMenu={toggleMenu}/>
       <Main/>
